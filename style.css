@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.new-amsterdam-regular {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: #b87a44;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.background{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.backgroundBlur{
+    position: absolute;
+    background-color: rgb(210 113 14 / 24%);
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(6px);
+}
+
+.mainDiv{
+    position: absolute;
+    height: 80%;
+    width: 28%;
+    /* background-color: rgb(152 40 40); */
+    color: aliceblue;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2%;
+}
+
+.mainDivBackground{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.innerMainDiv{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.innerMainDiv:hover{
+    background-color: rgba(243, 243, 243, 0.14);
+    transition-duration: 0.2s;
+}
+
+.innerMainDiv:active{
+    
+    background-color: rgba(19, 229, 82, 0.151);
+    transition-duration: 0.2s;
+}
+
+.rouletteStatusImg{
+    padding-top: 0;
+    width: 41%;
+    height: 25%;
+}
+
+h2{
+    color: #452c16bd;
+    font-size: 250%;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 100;
+}
+
+.randomNumber{
+    font-size: 850%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    color: #633c19;
+}
+
+.rollButton{
+    font-size: 330%;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 100;
+    font-size: 200%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10%;
+    width: 70%;
+    height: 20%;
+    border-color: 0;
+    border-style: none;
+    border-radius: 5%;
+}
+
