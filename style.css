@@ -65,10 +65,6 @@ body{
     align-items: center;
     justify-content: center;
 }
-.innerMainDiv:hover{
-    background-color: rgba(243, 243, 243, 0.14);
-    transition-duration: 0.2s;
-}
 
 .innerMainDiv:active{
     
