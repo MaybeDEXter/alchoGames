@@ -35,7 +35,7 @@ body{
 .mainDiv{
     position: absolute;
     height: 80%;
-    width: 28%;
+    width: 80%;
     /* background-color: rgb(152 40 40); */
     color: aliceblue;
     justify-self: center;
